@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS urls (
+  id SERIAL PRIMARY KEY,
+  short_form VARCHAR(255),
+  long_form VARCHAR(255)
+);
